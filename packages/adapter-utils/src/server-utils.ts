@@ -282,6 +282,7 @@ export async function runChildProcess(
     const CLAUDE_CODE_NESTING_VARS = [
       "CLAUDECODE",
       "CLAUDE_CODE_ENTRYPOINT",
+      "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS",
       "CLAUDE_CODE_SESSION",
       "CLAUDE_CODE_PARENT_SESSION",
     ] as const;
